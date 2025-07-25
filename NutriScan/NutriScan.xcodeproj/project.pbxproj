@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AF1C632E32E273001EF69A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AF1C622E32E273001EF69A /* InfoView.swift */; };
+		47AF1C652E32E404001EF69A /* ChangeCaloriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AF1C642E32E404001EF69A /* ChangeCaloriaView.swift */; };
+		47AF1C682E33010F001EF69A /* ViewModelAlimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AF1C662E33010F001EF69A /* ViewModelAlimentos.swift */; };
+		47AF1C692E33010F001EF69A /* ModelAlimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AF1C672E33010F001EF69A /* ModelAlimento.swift */; };
 		47D1C9002E31AA4600C80E12 /* NutriScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1C8FF2E31AA4600C80E12 /* NutriScanApp.swift */; };
 		47D1C9022E31AA4600C80E12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1C9012E31AA4600C80E12 /* ContentView.swift */; };
 		47D1C9042E31AA4800C80E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D1C9032E31AA4800C80E12 /* Assets.xcassets */; };
-		47D1C9072E31AA4800C80E12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D1C9062E31AA4800C80E12 /* Preview Assets.xcassets */; };
 		47D1C90E2E31AAEF00C80E12 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1C90D2E31AAEF00C80E12 /* HomeView.swift */; };
 		47D1C9102E31AB6A00C80E12 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1C90F2E31AB6A00C80E12 /* AddView.swift */; };
 		47D1C9122E31ABC000C80E12 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1C9112E31ABC000C80E12 /* CalendarView.swift */; };
@@ -18,11 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47AF1C622E32E273001EF69A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		47AF1C642E32E404001EF69A /* ChangeCaloriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCaloriaView.swift; sourceTree = "<group>"; };
+		47AF1C662E33010F001EF69A /* ViewModelAlimentos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelAlimentos.swift; sourceTree = "<group>"; };
+		47AF1C672E33010F001EF69A /* ModelAlimento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelAlimento.swift; sourceTree = "<group>"; };
 		47D1C8FC2E31AA4600C80E12 /* NutriScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D1C8FF2E31AA4600C80E12 /* NutriScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriScanApp.swift; sourceTree = "<group>"; };
 		47D1C9012E31AA4600C80E12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47D1C9032E31AA4800C80E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47D1C9062E31AA4800C80E12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47D1C90D2E31AAEF00C80E12 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		47D1C90F2E31AB6A00C80E12 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		47D1C9112E31ABC000C80E12 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -65,18 +71,13 @@
 				47D1C90F2E31AB6A00C80E12 /* AddView.swift */,
 				47D1C9112E31ABC000C80E12 /* CalendarView.swift */,
 				47D1C9132E31AC1C00C80E12 /* ChatView.swift */,
+				47AF1C622E32E273001EF69A /* InfoView.swift */,
+				47AF1C642E32E404001EF69A /* ChangeCaloriaView.swift */,
+				47AF1C672E33010F001EF69A /* ModelAlimento.swift */,
+				47AF1C662E33010F001EF69A /* ViewModelAlimentos.swift */,
 				47D1C9032E31AA4800C80E12 /* Assets.xcassets */,
-				47D1C9052E31AA4800C80E12 /* Preview Content */,
 			);
 			path = NutriScan;
-			sourceTree = "<group>";
-		};
-		47D1C9052E31AA4800C80E12 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				47D1C9062E31AA4800C80E12 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +138,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D1C9072E31AA4800C80E12 /* Preview Assets.xcassets in Resources */,
 				47D1C9042E31AA4800C80E12 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,10 +151,14 @@
 			files = (
 				47D1C9122E31ABC000C80E12 /* CalendarView.swift in Sources */,
 				47D1C9102E31AB6A00C80E12 /* AddView.swift in Sources */,
+				47AF1C682E33010F001EF69A /* ViewModelAlimentos.swift in Sources */,
 				47D1C90E2E31AAEF00C80E12 /* HomeView.swift in Sources */,
 				47D1C9022E31AA4600C80E12 /* ContentView.swift in Sources */,
 				47D1C9142E31AC1C00C80E12 /* ChatView.swift in Sources */,
+				47AF1C692E33010F001EF69A /* ModelAlimento.swift in Sources */,
 				47D1C9002E31AA4600C80E12 /* NutriScanApp.swift in Sources */,
+				47AF1C652E32E404001EF69A /* ChangeCaloriaView.swift in Sources */,
+				47AF1C632E32E273001EF69A /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

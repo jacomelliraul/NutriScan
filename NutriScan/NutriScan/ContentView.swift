@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
+
             TabView{
                 HomeView()
                     .tabItem {
@@ -29,8 +30,12 @@ struct ContentView: View {
                 ChatView()
                     .tabItem {
                         Label("Chat", systemImage: "message")
+                            
                     }
+                    
             }
+
+            
         }
     }
 }
